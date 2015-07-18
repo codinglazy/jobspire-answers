@@ -1,0 +1,9 @@
+var generateRandom = function(name) {
+		var random  = Math.floor(Math.random() * (15 - 6 + 1)) + 6;
+		
+		var str = name + " " + random;
+		
+		return str;
+}
+
+generateRandom("Rahul");
